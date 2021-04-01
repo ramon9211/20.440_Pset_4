@@ -38,6 +38,10 @@ https://drive.google.com/drive/folders/1bmsc-dkCZcWmv4pQV-WLtqKuWIGtZKvu?usp=sha
 
 After cloning the repository add the data to the parental folder of your repository.
 
+The folder Data contains two subfolders: a) GSE139598_Week13_Stimulated.Cells.UMI.collapsed.CHUNKED and b) Original.
+a) contains the actual single sequencing data
+b) contains meta data to label the cells
+
 ## Run code
 **a) Packages**
 
