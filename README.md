@@ -5,9 +5,11 @@
 ## Content
 1. Project overview
 2. Data
-3. Folder strucutre
+3. Folder structure
 4. Run code
-5. Citations
+  - packages needed
+  - run code
+6. Citations
 
 ## Project overview
 
