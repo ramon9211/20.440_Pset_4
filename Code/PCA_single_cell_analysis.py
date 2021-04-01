@@ -1,6 +1,7 @@
-#imports
+#imports for all pkgs
 import os
 from subprocess import check_output
+import scipy
 
 import pandas as pd
 import numpy as np
