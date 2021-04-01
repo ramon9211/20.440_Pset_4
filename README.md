@@ -1,6 +1,15 @@
-# 20.440_Pset_4
+# 20.440 Problemset 4: Build a repository for your project
+### author:           Rajib Mondal
+### Project partner:  Eddie Irvine
 
-## Purpose
+## Content
+1. Project overview
+2. Data
+3. Folder strucutre
+4. Run code
+5. Citations
+
+## Project overview
 
 ## Data
 
