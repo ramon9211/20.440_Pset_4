@@ -2,10 +2,12 @@
 ### author:           Rajib Mondal
 ### Project partner:  Eddie Irvine
 
+**Purpose: This repository provides a script to run a Python 3.8 PCA analysis on single-cell sequencing data from a Tuberculosis BCG-vaccine study on rhesus macaques published by Darrah et al.. It shall tell you in a strucutred way how to run this preliminary code.**
+
 ## Content
 1. Project overview
-2. Data
-3. Folder structure
+2. Folder structure
+3. Data
 4. Run code
     - packages needed
     - run code
@@ -26,6 +28,36 @@ While this original study demonstrated that IV BCG vaccination quantitatively an
 **Aim 3** Define the transcriptional profiles in lung-localized Natural Killer (NK) cells that uniquely evolve following IV BCG vaccination. Cytotoxic NK cells are enriched in individuals with latent TB -- a group able to maintain control of bacterial replication -- pointing to a potential functional role for this cell type in Mtb control7. Like B cells, NK cell numbers were increased in the BAL following IV BCG vaccination, yet the phenotypic state of these cells was not assessed4. Thus, in aim 3, we will test the hypothesis that IV BCG immunization uniquely drives the induction of cytotoxic NK cells in the lungs.
 
 
+## Folder structure
+Code: proves all python scripts
+Results: location to save generated Figures
+
 ## Data
+Please download the data folder from here:
+After cloning the repository add the data to the parental folder of your repository.
 
 ## Run code
+**a) Packages**
+
+Code is run on Python 3.8
+
+Following packages are needed:
+- numpy
+- sklearn
+- seaborn
+- os
+
+You can install these packages using pip or conda.
+
+**b) Run script**
+1. Clone repository to your desired location on your machine
+2. Save data from google drive to the parental folder of you repository.
+3. Open terminal
+4. Navigate to folder "Code"
+5. type into your command line: python PCA_single_cell_analaysis.py
+
+The Figure will pop up on your screen and is automatically saved in the results folder. If you would like to change the name of your saved Figure open the script and change the variable "resultName" as desired.
+
+## Citation
+1.Darrah, P. A. et al. Prevention of tuberculosis in macaques after intravenous BCG immunization. Nature 577, 95–102 (2020).
+
