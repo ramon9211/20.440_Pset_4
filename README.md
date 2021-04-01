@@ -34,6 +34,8 @@ Results: location to save generated Figures
 
 ## Data
 Please download the data folder from here:
+https://drive.google.com/drive/folders/1bmsc-dkCZcWmv4pQV-WLtqKuWIGtZKvu?usp=sharing
+
 After cloning the repository add the data to the parental folder of your repository.
 
 ## Run code
