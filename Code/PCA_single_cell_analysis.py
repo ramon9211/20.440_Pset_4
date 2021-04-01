@@ -23,9 +23,12 @@ folderPath = os.path.join('..','..','Project','data',
         'csv_test')
 
 # set result path to save figure
-resultPath = os.path.join('results',
-        'GSE139598_Week13_Stimulated.Cells.UMI.collapsed.CHUNKED',
-        'csv_test')
+resultPath = os.path.join('./','Results')
+resultName = 'PCA_1.jpg'
+
+# if result path is not a directory, create folder
+if not os.path.isdir(resultPath):
+    os.mkdir(resultPath)
 
 # get list of file names
 files = [f for f in os.listdir(folderPath) if os.path.isfile(os.path.join(folderPath, f))]
@@ -33,8 +36,6 @@ print(files)
 
 # initialize list to safe data chunks in
 dataList = []
-i=0
-
 for file_ in files:
     #read data
     data = pd.read_csv(
@@ -59,7 +60,7 @@ print('There are {} rows and {} columns in the whole dataset.'.format(nRow, nCol
 # some prints to check data from console
 print('DATA INFORMATION: \n')
 print(data.info())
-print('DATA First 5 lines: \n')
+print('\n \n Data First 5 lines: \n')
 print(data.head(5))
 
 #Creating dataframe for labels
@@ -108,5 +109,5 @@ ax1 = sns.scatterplot(x='PC1',
                 s=30, 
                 alpha=1).set_title('PCA')
 
-fig.savefig(resultPath, bbox='tight')
 plt.show()
+fig.savefig(os.path.join(resultPath, resultName), bbox='tight')

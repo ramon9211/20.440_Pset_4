@@ -18,12 +18,12 @@ import sklearn.cluster as cluster
 from sklearn.metrics import adjusted_rand_score, adjusted_mutual_info_score
 
 # set folder path
-folderPath = os.path.join('..','..','Project','data',
+folderPath = os.path.join('..','..','..','Project','data',
         'GSE139598_Week13_Stimulated.Cells.UMI.collapsed.CHUNKED',
         'csv_test')
 
 # set result path to save figure
-resultPath = os.path.join('./','Results')
+resultPath = os.path.join('../','Results')
 resultName = 'PCA_1.jpg'
 
 # if result path is not a directory, create folder
@@ -66,6 +66,7 @@ print(data.head(5))
 #Creating dataframe for labels
 labels = pd.read_csv(
     os.path.join('..',
+    '..',
     '..',
     'Project',
     'data',
