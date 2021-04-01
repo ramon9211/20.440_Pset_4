@@ -7,8 +7,8 @@
 2. Data
 3. Folder structure
 4. Run code
-  - packages needed
-  - run code
+    - packages needed
+    - run code
 6. Citations
 
 ## Project overview
