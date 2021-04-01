@@ -12,7 +12,7 @@
 6. Citations
 
 ## Project overview
-Note: This section is motivating our project and provides context. If you just want to run the code, you can skip it.
+**Note: This section is motivating our project and provides context. If you just want to run the code, you can skip it.
 
 Mycobacterium tuberculosis (Mtb), the causative agent of tuberculosis (TB), was responsible for the death of an estimated 1.4 million people in 20191. While a licensed TB vaccine does exist in the form of Bacille Calmette-Guérin (BCG), BCG does no2t effectively prevent adult pulmonary TB2. As such, novel vaccination strategies are urgently needed to curb the ongoing TB epidemic. 
 The development of an effective TB vaccine has been hampered by a poor understanding of protective immunity to Mtb. While CD4 T cells play a critical role in controlling Mtb infection3, efforts to generate vaccines that primarily exploit T cell immunity to drive protection have been met with limited success. Nevertheless, promising signals of vaccine efficacy have begun to emerge in several non-human primate (NHP) studies. 
